@@ -11,6 +11,9 @@ class TestCalculatorFunctions(unittest.TestCase):
     def test_add(self):
         self.assertEqual(calc.add(self.x, self.y), 5)
 
+    def test_multiply(self):
+        self.assertEqual(calc.multiply(self.x, self.y),6)
+    
     # def test_add_float(self):
         # self.assertEqual(calc.add(.1,.2), .3)
          
